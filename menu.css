@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.top_nav{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: #F5E8CB;
+	height: auto;
+	padding: 2rem;
+}
+.top_nav #logo{
+	padding-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.top_nav img:hover{
+	opacity: 0.5;
+}
+.top_nav .link{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	margin: 0 1rem;
+}
+.top_nav .link li{
+	float: left;
+	padding-right: 1.2em;
+}
+.top_nav .link a{
+	text-decoration: none;
+	list-style: none;
+	color: #1D736A;
+	font-size: 1.5rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	width: 1rem;
+}
+.top_nav .link a:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.search-container{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	width: 40%;
+}
+.search-container input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #602019;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #F5E8CB;
+  padding: 10px 10px 10px 20px;
+  color: #602019;
+}
+.search-container .topb{
+	border: none;
+	background-color: #F5E8CB;
+	position: absolute;
+	top: 20%;
+	right: 23%;
+}
+.line{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 0 auto;
+}
+.part1{
+	background-color: #F5E8CB;
+	padding-bottom: 5em;
+}
+.part1 #menu{
+	margin-top: 5em;
+	margin-left: 22em;
+}
+.part1 #logoword{
+	margin-left: 22em;
+}
+.part1 h4{
+	color: #602019;
+	font-size: 2em;
+	width: 30%;
+	position: absolute;
+	top: 59%;
+	left: 35%;
+	line-height: 1.5em;
+}
+.tips{
+	background-color: #E5820E;
+	padding: .2rem .5rem;
+	text-align: center;
+	font-size: .8em;
+	color: #F5E8CB;
+}
+.tips span{
+	font-weight: bold;
+	color: #602019;
+}
+.tips span a:hover{
+	color: #FDFDFD;
+}
+ #btop{
+	position: fixed;
+	width: 10%;
+	right: 5%;
+	top:50%;
+}
+  #btop a:hover{
+	opacity: 0.5;
+}
+.baijiu{
+	background-image: url("img/baijiu/baijiubg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 50em;
+}
+.btit{
+	padding: 2em 0 2em 10em;
+}
+.jp{
+	width: 20%;
+	position: absolute;
+	top: 130%;
+	left: 24%;
+}
+.jp a:hover{
+	opacity: 0.8;
+}
+.jp h3{
+	 color: #602019;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+.jt p{
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	color:#EB7678;
+}
+.np{
+	width: 20%;
+	position: absolute;
+	top: 123%;
+	left: 50%;
+}
+.np a:hover{
+	opacity: 0.8;
+}
+.np #dic{
+	padding-left: 30%;
+}
+.np h3{
+	 color: #602019;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+}
+.nt p{
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	color:#EB7678;
+}
+.tea{
+	background-color: #F5E8CB;
+	height: 42em;
+	padding: 3em 5em;
+}
+.tea .ttit{
+	float: right;
+}
+.tea #lt{
+	transform: rotate(60deg);
+	position: absolute;
+	left: 0;
+}
+.tea #rt{
+	float: right;
+	position: absolute;
+	right: 0;
+}
+.tea ul{
+	width:100%;
+	position: relative;
+	top: 10%;
+	overflow: hidden;
+}
+.tea ul li{
+	float: left;
+	width: 30%;
+	padding-left: 2.8em;
+}
+.tea ul li a:hover{
+	opacity: 0.5;
+}
+.tea ul li h3{
+	 color: #602019;
+	font-weight: bold;
+	font-size: 2rem;
+    padding-left: 4em;
+}
+.tea ul li p{
+	font-weight: bold;
+	font-size: 1rem;
+	padding-left: 7.5em;
+	color:#EB7678;
+}
+.drink{
+	background-image: url("img/drinks/drinkbg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    overflow: hidden;
+	padding-bottom: 3em;
+}
+.drink .dtit {
+	padding: 3em 0 1em 8em;
+}
+.drink ul{
+	padding: 0 10em;
+}
+.drink ul li{
+	float: left;
+	width: 30%;
+	padding-left: 0.2em;
+}
+.drink ul li a:hover{
+	opacity: 0.5;
+}
+.drink ul li h3{
+	color: #602019;
+	font-weight: bold;
+	font-size: 2rem;
+    padding-left: 5em;
+}
+.drink ul li p{
+	font-weight: bold;
+	font-size: 1rem;
+	padding-left: 9.2em;
+	color:#EB7678;
+}
+.gift{
+	background-color: #F5E8CB;
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+.gift .gtit{
+	float: right;
+	padding: 3em 5em 1em 0;
+}
+.gift ul{
+	padding: 22em 5em 2em 15em;
+	width: 80%;
+	margin: 0 auto;
+}
+.gift ul li{
+	float: left;
+	width: 30%;
+	padding-right: 15em;
+}
+.gift ul li img{
+	padding-left: 5em;
+}
+.gift ul li img:hover{
+	opacity: 0.5;
+}
+.gift ul li h3{
+	color: #602019;
+	font-weight: bold;
+	font-size: 2rem;
+    padding-left: 5em;
+}
+.gift ul li p{
+	font-weight: bold;
+	font-size: 1rem;
+	padding-left: 9.5em;
+	color:#EB7678;
+}
+.gift #gbg{
+	position: absolute;
+	top: 415%;
+	left: 3%;
+	width: 25%;
+}
+.bline{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 2em auto;
+}
+.fcontainer{
+	height: auto;
+	background-color: #F5E8CB;
+}
+.footer{
+	margin-top: 0.5rem;
+	padding: 2rem 1rem;
+	padding-left: 6em;
+}
+.footer .footerlogo{
+	padding: 1.5rem 10rem;
+	width: 50%;
+}
+.footernav{
+	overflow: hidden;
+	padding-left: 10rem;
+	width: 40%;
+}
+.footernav #main {
+	padding-right: .2rem;
+	margin-bottom: .5rem;
+}
+.footernav #main li{
+	float: left;
+	font-size: 1.2rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	color: #1D736A;
+}
+.footernav #pnav li{
+	float: left;
+	padding-right: .2rem;
+	font-size: 1.2rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	color: #1D736A;
+}
+#main li:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+ #pnav li:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.footerb{
+	text-align: center;
+	position: absolute;
+	right: 20%;
+	top: 530%;
+}
+
+.footerb h5{
+	color: #1D736A;
+	font-size: 1.5rem;
+}
+.footerb .sbutton{
+  border: 5px solid #1D736A;
+  border-radius: 5%;
+  background-color: #F5E8CB;
+  color:#E12323;
+  font-size: 1rem;
+  padding: .2em 1.8em;
+  margin-top: .8em;
+}
+.footerb .sbutton:hover{
+  background-color: #1D736A;
+  color: white;
+}
+.footerb .sbutton span{
+	font-weight: bold;
+	font-size: 1.8rem;
+	letter-spacing:.1em;
+}
+.linef{
+	border-bottom: 1px solid #1D736A;
+	width: 90%;
+	margin: 0 auto;
+}
+.copyright{
+	color: #1D736A;
+	font-size: .3rem;
+	text-align: center;
+	padding: 1rem;
+}

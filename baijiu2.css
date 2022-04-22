@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.top_nav{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: #F5E8CB;
+	height: auto;
+	padding: 2rem;
+}
+.top_nav #logo{
+	padding-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.top_nav img:hover{
+	opacity: 0.5;
+}
+.top_nav .link{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	margin: 0 1rem;
+}
+.top_nav .link li{
+	float: left;
+	padding-right: 1.2em;
+}
+.top_nav .link a{
+	text-decoration: none;
+	list-style: none;
+	color: #1D736A;
+	font-size: 1.5rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	width: 1rem;
+}
+.top_nav .link a:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.search-container{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	width: 40%;
+}
+.search-container input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #602019;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #F5E8CB;
+  background-size: 25px;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 20px;
+  color: #602019;
+}
+.search-container .topb{
+	border: none;
+	background-color: #F5E8CB;
+	position: absolute;
+	top: 20%;
+	right: 23%;
+}
+.header{
+	background-color: #F5E8CB;
+	overflow: hidden;
+	margin-bottom: 3em;
+	background-image: url("img/drinks/cheers.jpg") right no-repeat;
+    height: 20.5em;
+}
+.line{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 0 auto;
+}
+.tagline{
+	margin-bottom: 5em;
+}
+.tagline ul{
+	padding: 1em 0 4em 7em;
+}
+.tagline ul #poet{
+	position: absolute;
+	top: 23%;
+	left: 16%;
+}
+.header #tpimg{
+	position: absolute;
+	left: 60%;
+	top: 22.5%;
+	opacity: 0.8;
+}
+.button{
+	position: fixed;
+	right: 5%;
+	width: 10%;
+}
+.button a:hover{
+	opacity: 0.5;
+}
+
+.jtit{
+	margin-bottom: 5em;
+}
+.jtit h3{
+    color: #602019;
+	font-weight: bold;
+	width: 10%;
+	font-size: 3rem;
+	text-align: center;
+	margin-left: 8%;
+}
+.jtit #je{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-left: 8.5%;
+	color: #FFCCCC;
+}
+.container img {
+  vertical-align: middle;
+}
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 0 auto;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.prev,.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.caption-container {
+  text-align: center;
+  background-color: none;
+  padding: 2em 16px;
+  color: #602019;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 8%;
+  padding-right: 4em;
+  padding-left: 2em;
+}
+.demo {
+  opacity: 0.6;
+}
+
+.active,.demo:hover {
+  opacity: 1;
+}
+.jiangtag{
+	color: #602019;
+	font-weight: 250;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 2em auto
+}
+
+.bbotm {
+	position: fixed;
+	right: 5%;
+	width: 10%;
+}
+.bbotm a:hover{
+	opacity: 0.5;
+	transition: 0.3s ease-in-out;
+}
+
+.jtit2{
+	margin: 3em 0;
+}
+.jtit2 h3{
+    color: #602019;
+	font-weight: bold;
+	width: 10%;
+	font-size: 3rem;
+	text-align: center;
+	margin-left: 8%;
+}
+.jtit2 #je{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-left: 8.5%;
+	color: #FFCCCC;
+}
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	width: 95%;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.container2 .card{
+	position: relative;
+	max-width: 300px;
+	height: 200px;
+	background: #F5E8CB;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
+}
+.container2 .card_1{
+	position: relative;
+	max-width: 300px;
+	height: 200px;
+	background: #1D736A;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
+}
+.container2 .card:hover{
+	height: 380px;
+}
+.container2 .card_1:hover{
+	height: 380px;
+}
+.container2 .card .imgBx{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	top: -50px;
+	left: 20px;
+}
+.container2 .card_1 .imgBx{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	top: -50px;
+	left: 20px;
+}
+.container2 .card .imgBx img{
+	max-width: 100%;
+	border-radius:4px;
+}
+.container2 .card_1 .imgBx img{
+	max-width: 100%;
+	border-radius:4px;
+}
+.container2 .card .content{
+	position: relative;
+	margin-top: 140px;
+	padding: 10px 10px;
+	text-align: center;
+	color: #602019;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+.container2 .card_1 .content{
+	position: relative;
+	margin-top: 140px;
+	padding: 10px 10px;
+	text-align: center;
+	color: #F5E8CB;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+.container2 .card:hover .content{
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: 0.3s;
+}
+.container2 .card_1:hover .content{
+	visibility: visible;
+	opacity: 1;
+	margin-top: -40px;
+	transition-delay: 0.3s;
+}
+.nongtag{
+	color: #602019;
+	font-weight: 250;
+	font-size: 1.2rem;
+	text-align: center;
+	margin: .2em auto;
+}
+.tips{
+	background-color: #E5820E;
+	padding: .2rem .5rem;
+	margin-top: 2em;
+}
+.tips .saleword{
+	font-size: 0.2rem;
+	color: aliceblue;
+	text-align: center;
+}
+.tips .saleword span{
+	color: #602019;
+	font-weight: bold;
+}
+.tips .saleword span:hover{
+	color: aliceblue;
+}
+.pfooter {
+	background-color: #F5E8CB;
+}
+.pfooter .ftit{
+	color: #602019;
+	font-weight: bold;
+	border-bottom: 2px solid #602019;
+	width: 8%;
+	padding-bottom: .2em;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 2rem;
+	margin-left: 8%;
+}
+.pfooter .plist ul{
+	padding: 2em 0;
+	list-style: none;
+	overflow: hidden;
+	width: 41%;
+	margin: 0 auto;
+}
+.plist ul li{
+	float: left;
+}
+
+.plist a:hover{
+	opacity: 0.5;
+}

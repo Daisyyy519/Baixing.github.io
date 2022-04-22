@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.top_nav{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: #F5E8CB;
+	height: auto;
+	padding: 2rem;
+}
+.top_nav #logo{
+	padding-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.top_nav img:hover{
+	opacity: 0.5;
+}
+.top_nav .link{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	margin: 0 1rem;
+}
+.top_nav .link li{
+	float: left;
+	padding-right: 1.2em;
+}
+.top_nav .link a{
+	text-decoration: none;
+	list-style: none;
+	color: #1D736A;
+	font-size: 1.5rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	width: 1rem;
+}
+.top_nav .link a:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.search-container{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	width: 40%;
+}
+.search-container input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #602019;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #F5E8CB;
+  background-size: 25px;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 20px;
+  color: #602019;
+}
+.search-container .topb{
+	border: none;
+	background-color: #F5E8CB;
+	position: absolute;
+	top: 20%;
+	right: 23%;
+}
+.header{
+	background-color: #F5E8CB;
+	overflow: hidden;
+	margin-bottom: 3em;
+	background-image: url("img/drinks/cheers.jpg") right no-repeat;
+}
+.line{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 0 auto;
+}
+.tagline{
+	margin-bottom: 5em;
+}
+.tagline ul{
+	padding: 1em .2em 4em 6em;
+}
+.tagline ul li{
+	float: left;
+	list-style: none;
+}
+.header #rimg{
+	position: absolute;
+	left: 70%;
+	top: 22%;
+	opacity: 0.8;
+}
+.button{
+	position: fixed;
+	right: 5%;
+	width: 10%;
+}
+.button a:hover{
+	opacity: 0.5;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+  height: auto;
+  overflow: hidden;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  color: red;
+  font-weight: bold;
+  font-size: 3em;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  opacity: 0.5;
+}
+.text {
+  color: #602019;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 1em 0;
+  position: absolute;
+  top: -1.2em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 .5em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 1em}
+}
+.pfooter {
+	background-color: #F5E8CB;
+	margin-top: 3em;
+}
+.pfooter .ftit{
+	color: #602019;
+	font-weight: bold;
+	border-bottom: 2px solid #602019;
+	width: 8%;
+	padding-bottom: .2em;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 2rem;
+	margin-left: 8%;
+}
+.pfooter .plist ul{
+	padding: 2em 0;
+	list-style: none;
+	overflow: hidden;
+	width: 41%;
+	margin: 0 auto;
+}
+.plist ul li{
+	float: left;
+}
+
+.plist a:hover{
+	opacity: 0.5;
+}

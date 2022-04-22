@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.top_nav{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: #F5E8CB;
+	height: auto;
+	padding: 2rem;
+}
+.top_nav #logo{
+	padding-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.top_nav img:hover{
+	opacity: 0.5;
+}
+.top_nav .link{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	margin: 0 1rem;
+}
+.top_nav .link li{
+	float: left;
+	padding-right: 1.2em;
+}
+.top_nav .link a{
+	text-decoration: none;
+	list-style: none;
+	color: #1D736A;
+	font-size: 1.5rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	width: 1rem;
+}
+.top_nav .link a:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.search-container{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	width: 40%;
+}
+.search-container input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #602019;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #F5E8CB;
+  background-size: 25px;
+  background-position: 90%;
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 20px;
+  color: #602019;
+}
+.search-container .topb{
+	border: none;
+	background-color: #F5E8CB;
+	position: absolute;
+	top: 20%;
+	right: 23%;
+}
+
+.header {
+	background-color: #F5E8CB;
+}
+.line{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 0 auto;
+}
+.header #ltea{
+	position: absolute;
+	left: -2%;
+	top: 25%;
+}
+.header #rtea{
+	position: absolute;
+	right: 0;
+}
+.tagline{
+	margin-bottom: 3em;
+}
+.tagline ul{
+	padding: 2em 0 4em 7em;
+}
+.tagline ul #poet{
+	position: absolute;
+	top: 25%;
+	left: 16%;
+}
+.button{
+	position: fixed;
+	right: 5%;
+	width: 10%;
+}
+
+.button a:hover{
+	opacity: 0.5;
+}
+.btit{
+	margin-bottom: 2em;
+}
+.btit h3{
+    color: #602019;
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+}
+.btit #be{
+	font-weight: bold;
+	font-size: 1rem;
+	text-align: center;
+	color: #FFCCCC;
+}
+ #ltea2{
+	position: absolute;
+	top: 120%;
+	left: -2%;
+}
+.mySlides1, .mySlides2 {
+	display: none
+}
+.slideshow-container img {
+	vertical-align: middle;
+}
+.mline{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 2.5em auto;
+}
+#rtea2{
+	position: absolute;
+	top: 150%;
+	right: 0;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #602019;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.tips{
+	background-color: #E5820E;
+	padding: .2rem .5rem;
+	margin-top: 3em;
+}
+.tips .saleword{
+	font-size: 0.2rem;
+	color: aliceblue;
+	text-align: center;
+}
+.tips .saleword span{
+	color: #602019;
+	font-weight: bold;
+	font-size: 0.4rem;
+}
+.tips .saleword span:hover{
+	opacity: 0.8;
+	color: aliceblue;
+}
+.pfooter {
+	background-color: #F5E8CB;
+}
+.pfooter .ftit{
+	color: #602019;
+	font-weight: bold;
+	border-bottom: 2px solid #602019;
+	width: 8%;
+	padding-bottom: .2em;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 2rem;
+	margin-left: 8%;
+}
+.pfooter .plist ul{
+	padding: 2em 0;
+	list-style: none;
+	overflow: hidden;
+	width: 41%;
+	margin: 0 auto;
+}
+.plist ul li{
+	float: left;
+}
+
+.plist a:hover{
+	opacity: 0.5;
+}

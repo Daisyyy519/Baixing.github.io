@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.top_nav{
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	background-color: #F5E8CB;
+	height: auto;
+	padding: 2rem;
+}
+.top_nav #logo{
+	padding-left: 20%;
+	width: 20%;
+	height: auto;
+}
+.top_nav img:hover{
+	opacity: 0.5;
+}
+.top_nav .link{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	margin: 0 1rem;
+}
+.top_nav .link li{
+	float: left;
+	padding-right: 1.2em;
+}
+.top_nav .link a{
+	text-decoration: none;
+	list-style: none;
+	color: #1D736A;
+	font-size: 1.5rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	width: 1rem;
+}
+.top_nav .link a:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.search-container{
+	position: absolute;
+	top: 10%;
+	right: 0;
+	width: 40%;
+}
+.search-container input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #602019;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #F5E8CB;
+  padding: 10px 10px 10px 20px;
+  color: #602019;
+}
+.search-container .topb{
+	border: none;
+	background-color: #F5E8CB;
+	position: absolute;
+	top: 20%;
+	right: 23%;
+}
+
+.line{
+	border-bottom: 1px solid #602019;
+	width: 90%;
+	margin: 0 auto;
+}
+.top_box{
+	padding: 1rem 3rem;
+	overflow: hidden;
+	background-color: #F5E8CB;
+	height: auto;
+	position: relative;
+}
+
+.top_box .brandlogo img{
+	position: relative;
+	left: 15%;
+	padding-top: 3em;
+}
+.topbrand {
+	position: relative;
+	right: -35%;
+	top: -100%;
+	overflow: hidden;
+	padding: 0.2em 1.2rem;
+    color: #602019;
+	width: 50%;
+}
+.topbrand #topbrand{
+	font-size: 3rem;
+	font-weight: bold;
+	position: absolute;
+	line-height: 2.8rem;
+	top:53%;
+	left: 10%;
+}
+.topbrand #topslogan{
+	font-size: 1.2rem;
+	float: right;
+	word-spacing:0.5em;
+}
+.scoll img{
+	position: relative;
+	left:22%;
+	bottom: 5%;
+    margin-top: 2em;
+}
+.tips{
+	background-color: #E5820E;
+	padding: .2rem .5rem;
+}
+
+.tips .saleword{
+	font-size: 0.2rem;
+	color: aliceblue;
+	text-align: center;
+}
+.tips .saleword span{
+	color: #602019;
+	width: 100%;
+	height: 2%;
+	font-size: 0.5rem;
+}
+.products{
+	padding: 3rem 4rem;
+}
+.products h4{
+	color: #602019;
+	font-weight: bold;
+	border-bottom: 2px solid #602019;
+	width: 10%;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-bottom: 0.2rem;
+	margin-left: 8%;
+}
+.products #pro{
+	margin-top: 3.5rem;
+	padding-left: 8%;
+	overflow: hidden;
+}
+.products #pro li {
+	list-style: none;
+	float: left;
+	padding: 0 5%;
+}
+.products #pro a:hover{
+	opacity: 0.5;
+}
+.tit2{
+	background-color: #F5E8CB;
+	margin-top: 6rem;
+	padding: 1.2rem 3rem;
+	overflow: hidden;
+}
+.tit2 h4{
+	border-bottom: 2px solid #602019;
+	width: 15%;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-bottom: 0.2rem;
+	margin-left: 8%;
+	color: #602019;
+	padding-top: 1em;
+}
+.tit2 .reason{
+	font-size: 1.2rem;
+	padding-top: 1rem;
+	color: #602019;
+	padding-left: 8.5em;
+	padding-bottom: 1em;
+	line-height: 2em;
+	letter-spacing:0.05em;
+}
+.store img{
+    position: absolute;
+	right: 20%;
+	bottom: -195%;
+}
+.part3 .tit3 h4{
+	color: #602019;
+	border-bottom: 2px solid #602019;
+	width: 10%;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-bottom: 0.5rem;
+	margin-left: 11%;
+	margin-top: 4em;
+	position: relative;
+}
+.part3 .left{
+	padding-top: 1rem;
+	padding-left: 10rem;
+	padding-bottom: 1rem;
+	color: #602019;
+}
+.part3 .left span{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.part3 ul{
+	overflow: hidden;
+	width: 25%;
+	padding-left: 5em;
+	padding-top: 3em;
+}
+.part3 li{
+	float: left;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+.left ul #abotton{
+	text-align: center;
+	font-size: .8rem;
+	font-weight: bold;
+	padding-top: 2em;
+}
+.left ul #bframe{
+	position: absolute;
+	left: 23.5%;
+	bottom: -242%;
+	z-index: -1;
+}
+.left ul li a:hover{
+	color: #E12323;
+	opacity: 0.8;
+}
+.vl {
+  border-left: 2px solid #602019;
+  height: 15rem;
+  position: absolute;
+  bottom: -245%;
+  right: 55%;
+}
+.mframe{
+	position: absolute;
+	left: 52%;
+	bottom:-252%;
+	z-index: -1;
+}
+.map{
+	position: absolute;
+	right: 18%;
+	bottom:-248%;
+}
+.fcontainer{
+	height: auto;
+	background-color: #F5E8CB;
+}
+.footer{
+	margin-top: 6rem;
+	padding: 2rem 1rem;
+	padding-left: 6em;
+}
+.footer .footerlogo{
+	padding: 1.5rem 10rem;
+	width: 50%;
+}
+.footernav{
+	overflow: hidden;
+	padding-left: 10rem;
+	width: 40%;
+	
+}
+.footernav #main {
+	padding-right: .2rem;
+	margin-bottom: .5rem;
+}
+.footernav #main li{
+	float: left;
+	font-size: 1.2rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	color: #1D736A;
+	list-style: none;
+}
+.footernav #pnav li{
+	float: left;
+	padding-right: .2rem;
+	font-size: 1.2rem;
+	font-family: 'Ma Shan Zheng', cursive;
+	color: #1D736A;
+	list-style: none;
+}
+#main li:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+ #pnav li:hover{
+	color: #E12323;
+	border-bottom: 0.2rem solid #E12323;
+	padding-bottom: 0.5rem;
+}
+.footerb{
+	text-align: center;
+	position: absolute;
+	right: 330px;
+	top: 2650px;
+}
+.footerb h5{
+	color: #1D736A;
+	font-size: 1.5rem;
+}
+.footerb .sbutton{
+  border: 5px solid #1D736A;
+  border-radius: 5%;
+  background-color: #F5E8CB;
+  color:#E12323;
+  font-size: 1rem;
+  padding: .2em 1.8em;
+  margin-top: .8em;
+}
+.footerb .sbutton:hover{
+  background-color: #1D736A;
+  color: white;
+}
+.footerb .sbutton span{
+	font-weight: bold;
+	font-size: 1.8rem;
+	letter-spacing:.1em;
+}
+.linef{
+	border-bottom: 1px solid #1D736A;
+	width: 90%;
+	margin: 0 auto;
+}
+.copyright{
+	color: #1D736A;
+	font-size: .3rem;
+	text-align: center;
+	padding: 1rem;
+}
